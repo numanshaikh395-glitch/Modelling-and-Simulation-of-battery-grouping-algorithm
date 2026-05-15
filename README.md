@@ -33,5 +33,18 @@ generate.py-----> pre-functional and static parameters
 timegan.py------> process the timeseries data and trains through the Embedor, supervisor, recover, and Joint adversarial training saves the output files in a                         different location.
 preprocessor.py---> Cleans and preprocesses the raw data.
 
+#2. ALgorithms
+These contain all the algorithm programs that would perform sorting and all the test functions that would benchmark different algorithms on different metrics. 
+1. __init__.py
+2. kmeans.py
+3. cdm+kmeans.py
+4. fcm.py
+5. dtw cdm+kmeans.py
+6. /testfunction
+         dataloader.py------> loads and parses all the .csv files  to the different algorithms  when needeed.
+         config.py-------> contains all the hyper parametres.
+         
+         
+
  
 ---
