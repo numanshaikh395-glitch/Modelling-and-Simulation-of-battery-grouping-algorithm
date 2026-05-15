@@ -20,5 +20,16 @@ Raw / Synthetic Cell Data
         ▼
    Benchmarking & Comparative Analysis
 ```
+
+
+## 1 · Synthetic Data Generator
+ 
+> **Directory:** `synthetic_data_generator/`
+ 
+Real cell-parameter datasets suitable for large-scale grouping research are scarce — most public repositories (MATR, CALCE, NASA PCoE) contain fewer than 200 cells with incomplete parameter coverage. The synthetic data generator addresses this gap by producing statistically valid, physically consistent cell populations of arbitrary size (N up to 10⁵+).
+config.py -----> contains all the hyperparameters and prerequisites.
+dataloader.py------> this loads the data to the timegan.
+
+
  
 ---
