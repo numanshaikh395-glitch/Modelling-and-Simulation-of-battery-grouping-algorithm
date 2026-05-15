@@ -28,8 +28,10 @@ Raw / Synthetic Cell Data
  
 Real cell-parameter datasets suitable for large-scale grouping research are scarce — most public repositories (MATR, CALCE, NASA PCoE) contain fewer than 200 cells with incomplete parameter coverage. The synthetic data generator addresses this gap by producing statistically valid, physically consistent cell populations of arbitrary size (N up to 10⁵+).
 config.py -----> contains all the hyperparameters and prerequisites.
-dataloader.py------> this loads the data to the timegan.
-
+data_loader.py------> this loads the data to the timegan.
+generate.py-----> pre-functional and static parameters 
+timegan.py------> process the timeseries data and trains through the Embedor, supervisor, recover, and Joint adversarial training saves the output files in a                         different location.
+preprocessor.py---> Cleans and preprocesses the raw data.
 
  
 ---
